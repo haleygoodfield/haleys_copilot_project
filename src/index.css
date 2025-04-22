@@ -7,10 +7,10 @@
   --border-color: #dee2e6; /* Border color for elements */
   --shadow: 0 10px 20px rgba(0, 0, 0, 0.08); /* Subtle shadow for cards */
   --radius: 12px; /* Border radius for rounded corners */
-  --spacing: 1.5rem; /* Default spacing for margins and padding */
+  --spacing: 2rem; /* Default spacing for margins and padding */
   font-family: 'Segoe UI', Roboto, sans-serif; /* Default font family */
   font-weight: 400; /* Default font weight */
-  font-size: 16px; /* Base font size */
+  font-size: 18px; /* Base font size for the app */
   color: var(--text-color); /* Default text color */
   background-color: var(--bg-color); /* Default background color */
 }
@@ -27,16 +27,16 @@ body {
 
 /* Styles for the main heading */
 h1 {
-  font-size: 2.5rem; /* Large font size for the heading */
-  margin-bottom: 1.5rem; /* Add spacing below the heading */
+  font-size: 3rem; /* Large font size for the heading */
+  margin-bottom: 2rem; /* Add spacing below the heading */
   color: var(--accent); /* Use the accent color for the heading */
   text-align: center; /* Center-align the heading */
 }
 
 /* Styles for the dropdown (select) element */
 select {
-  padding: 0.6rem 1rem; /* Add padding inside the dropdown */
-  font-size: 1rem; /* Set font size */
+  padding: 0.75rem 1.25rem; /* Add padding inside the dropdown */
+  font-size: 1.125rem; /* Set font size */
   border-radius: var(--radius); /* Rounded corners */
   border: 1px solid var(--border-color); /* Add a border */
   background-color: #fff; /* White background for the dropdown */
@@ -46,8 +46,8 @@ select {
 
 /* Styles for buttons */
 button {
-  padding: 0.6rem 1.2rem; /* Add padding inside the button */
-  font-size: 1rem; /* Set font size */
+  padding: 0.75rem 1.5rem; /* Add padding inside the button */
+  font-size: 1.125rem; /* Set font size */
   border: none; /* Remove default border */
   border-radius: var(--radius); /* Rounded corners */
   background-color: var(--accent); /* Use the accent color for the button */
@@ -60,7 +60,7 @@ button {
 /* Hover effect for buttons */
 button:hover {
   background-color: #3b7be0; /* Darker shade of the accent color on hover */
-  transform: scale(1.03); /* Slightly enlarge the button on hover */
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
 }
 
 /* Focus effect for buttons */
