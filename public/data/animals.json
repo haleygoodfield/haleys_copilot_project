@@ -1,0 +1,27 @@
+[
+    {
+      "name": "Lion",
+      "type": "Mammal",
+      "habitat": "Savannah",
+      "diet": "Carnivore",
+      "lifespan": "12 years",
+      "image": "lion.jpg"
+    },
+    {
+      "name": "Elephant",
+      "type": "Mammal",
+      "habitat": "Forest",
+      "diet": "Herbivore",
+      "lifespan": "60 years",
+      "image": "elephant.jpg"
+    },
+    {
+      "name": "Penguin",
+      "type": "Bird",
+      "habitat": "Antarctica",
+      "diet": "Fish",
+      "lifespan": "20 years",
+      "image": "penguin.jpg"
+    }
+  ]
+  
