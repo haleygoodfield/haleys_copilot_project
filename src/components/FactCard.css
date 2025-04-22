@@ -1,0 +1,39 @@
+/* Styles for the fact card container */
+.fact-card {
+    background-color: var(--card-bg); /* Background color of the card */
+    border: 1px solid var(--border-color); /* Border color for the card */
+    border-radius: var(--radius); /* Rounded corners for the card */
+    box-shadow: var(--shadow); /* Subtle shadow for a lifted effect */
+    padding: 1.5rem; /* Inner spacing for content */
+    max-width: 450px; /* Maximum width of the card */
+    text-align: center; /* Center-align text inside the card */
+    margin: 1rem auto; /* Center the card horizontally and add vertical spacing */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Hover effect for the fact card */
+.fact-card:hover {
+    transform: translateY(-5px); /* Slightly lift the card on hover */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1); /* Add a deeper shadow on hover */
+}
+
+/* Styles for the animal image inside the card */
+.animal-image {
+    max-width: 100%; /* Ensure the image does not exceed the card's width */
+    height: auto; /* Maintain the aspect ratio of the image */
+    border-radius: var(--radius); /* Rounded corners for the image */
+    margin-top: 1.2rem; /* Add spacing above the image */
+    transition: transform 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Hover effect for the animal image */
+.animal-image:hover {
+    transform: scale(1.05); /* Slightly enlarge the image on hover */
+}
+
+/* Styles for the paragraph text inside the fact card */
+.fact-card p {
+    font-size: 1.1rem; /* Slightly larger font size for readability */
+    line-height: 1.6; /* Increase line spacing for better readability */
+    color: var(--text-color); /* Use the primary text color */
+}
